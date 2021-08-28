@@ -32,7 +32,7 @@
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.3.3"
   },
-    "files": [
+  "files": [
     "lib",
     "src"
   ],

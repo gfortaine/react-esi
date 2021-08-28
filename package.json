@@ -36,7 +36,7 @@
     "build": "tsc",
     "watch": "tsc -w",
     "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
-    "install": "npm run build",
+    "prepare": "npm run build",
     "cs": "prettier --write \"src/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
     "test": "jest",
     "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
